@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AutoPedia – בדיקת רכב לפי מספר רישוי ומוסך תלת-ממד</title>
+<meta name="description" content="AutoPedia: בדיקת רכב לפי מספר רישוי, ריקולים, מחירון, תזכורות לרישיון ומוסך תלת-ממד. Plate lookup, recalls, list prices, licence reminders and a 3D car guide.">
+<link rel="icon" href="img/icon.png">
+<style>
+:root{--bg:#0a0c0f;--card:#11161d;--line:#232c37;--tx:#e7edf3;--mut:#8b96a3;--acc:#ffb02e}
+*{box-sizing:border-box}body{margin:0;font-family:Heebo,"Segoe UI",system-ui,sans-serif;background:radial-gradient(1200px 600px at 50% -10%,#1a2230 0,var(--bg) 60%);color:var(--tx);line-height:1.6}
+.wrap{max-width:1040px;margin:0 auto;padding:28px 18px 60px}
+header{display:flex;align-items:center;gap:12px}header img{width:48px;height:48px}header b{font-size:24px}
+nav{margin-inline-start:auto;display:flex;gap:14px;font-size:14px}a{color:#9ccbff}
+.hero{text-align:center;margin:40px 0 26px}.hero h1{font-size:clamp(26px,5vw,42px);margin:0 0 10px}.hero p{color:#c9d2dc;font-size:17px;max-width:720px;margin:0 auto}
+.badge{display:inline-block;margin-top:16px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 14px;color:var(--mut);font-size:14px}
+.shots{display:flex;gap:14px;overflow-x:auto;padding:10px 4px 18px;scroll-snap-type:x mandatory}.shots img{width:220px;flex:none;border-radius:18px;border:1px solid var(--line);scroll-snap-align:start}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:20px}
+.f{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}.f b{display:block;font-size:16px;margin-bottom:4px}.f span{font-size:24px}.f p{margin:0;color:#c3ccd6;font-size:14px}
+h2{margin:44px 0 6px;font-size:22px}.note{color:var(--mut);font-size:13px;margin-top:30px}
+section[lang=en]{direction:ltr;text-align:left;border-top:1px solid var(--line);margin-top:50px}
+footer{border-top:1px solid var(--line);margin-top:40px;padding-top:16px;color:var(--mut);font-size:13px;display:flex;gap:16px;flex-wrap:wrap}
+</style>
+</head>
+<body><div class="wrap">
+<header><img src="img/icon.png" alt=""><b>AutoPedia</b><nav><a href="#en">English</a><a href="privacy.html">מדיניות פרטיות · Privacy</a></nav></header>
+
+<div class="hero">
+ <h1>כל מה שצריך לדעת על רכב, באפליקציה אחת</h1>
+ <p>בדיקת רכב לפי מספר רישוי, ריקולים, מחירון, תזכורות לחידוש רישיון, נתוני הדגמים בישראל ומוסך תלת-ממד שמסביר כל חלק. בעברית, בערבית ובאנגלית.</p>
+ <div class="badge">בקרוב ב-Google Play</div>
+</div>
+
+<div class="shots">
+ <img src="img/01-home-he.jpg" alt="מסך הבית"><img src="img/02-plate-report-he.jpg" alt="דוח לפי מספר רישוי"><img src="img/03-pre-purchase-he.jpg" alt="בדיקה לפני קנייה">
+ <img src="img/05-israel-data-he.jpg" alt="הדגם בכבישי ישראל"><img src="img/04-workshop-he.jpg" alt="מוסך תלת-ממד"><img src="img/07-exploded-he.jpg" alt="מצב פירוק">
+</div>
+
+<div class="grid">
+ <div class="f"><span>🔎</span><b>בדיקה לפי מספר רישוי</b><p>בהקלדה או בסריקה במצלמה: סטטוס, טסט ותוקף רישיון, ק"מ, היסטוריית בעלות, שינויים, ריקולים פתוחים ומחיר מחירון כחדש.</p></div>
+ <div class="f"><span>🛒</span><b>בדיקה לפני קנייה</b><p>זיהוי חשד להחזרת מד ק"מ, השוואת המחיר המבוקש להערכה, ורשימת בדיקות לפני שסוגרים עסקה.</p></div>
+ <div class="f"><span>🚗</span><b>הרכבים שלי</b><p>תזכורות לחידוש רישיון והתראה על ריקול חדש. הכל נשמר בטלפון בלבד.</p></div>
+ <div class="f"><span>🇮🇱</span><b>הדגם בכבישי ישראל</b><p>כמה רכבים על הכביש, מכירות, צמיגים נפוצים, רמת בטיחות וכל הריקולים, לפי נתוני משרד התחבורה.</p></div>
+ <div class="f"><span>🧰</span><b>מוסך תלת-ממד</b><p>פירוק הרכב לחלקים והסבר לכל חלק, עם סימפטומים ותדירות טיפול.</p></div>
+ <div class="f"><span>🩺</span><b>מה התקלה?</b><p>בוחרים סימפטום ורואים על הרכב את החלקים החשודים.</p></div>
+</div>
+<p class="note">ללא הרשמה, ללא פרסומות וללא איסוף מידע אישי. המידע מגיע ממאגרי המידע הפתוחים של משרד התחבורה (data.gov.il). האפליקציה אינה רשמית ואינה מחליפה בדיקה מקצועית. צילומי המסך מציגים נתוני הדגמה.</p>
+
+<section lang="en" id="en">
+ <h2>Everything about a car, in one app</h2>
+ <p>Licence-plate lookup, recalls, list prices, licence-renewal reminders, Israeli model data and a 3D workshop that explains every part. In Hebrew, Arabic and English.</p>
+ <div class="shots"><img src="img/08-home-en.jpg" alt="Home"><img src="img/09-plate-report-en.jpg" alt="Plate report"></div>
+ <div class="grid">
+  <div class="f"><span>🔎</span><b>Plate lookup</b><p>Typed or scanned with the camera: status, test and licence validity, mileage, ownership history, recorded changes, open recalls and list price when new.</p></div>
+  <div class="f"><span>🛒</span><b>Pre-purchase check</b><p>Flags a possible odometer rollback, compares the asking price with the estimate, and gives a checklist before you close the deal.</p></div>
+  <div class="f"><span>🚗</span><b>My cars</b><p>Licence-renewal reminders and new-recall alerts. Everything stays on your phone.</p></div>
+  <div class="f"><span>🇮🇱</span><b>The model in Israel</b><p>Cars on the road, sales, common tyre sizes, safety level and every recall, from Ministry of Transport data.</p></div>
+  <div class="f"><span>🧰</span><b>3D workshop</b><p>Take the car apart, with every part explained, its failure symptoms and service interval.</p></div>
+  <div class="f"><span>🩺</span><b>What's wrong?</b><p>Pick a symptom and see the suspect parts on the car.</p></div>
+ </div>
+ <p class="note">No sign-up, no ads, no personal data collected. Data comes from the Israeli Ministry of Transport open data (data.gov.il). Not an official app; it does not replace a professional inspection. Screenshots show demo data.</p>
+</section>
+
+<footer><span>© 2026 AutoPedia</span><a href="privacy.html">מדיניות פרטיות / Privacy policy</a><span>[contact e-mail]</span></footer>
+</div></body>
+</html>
