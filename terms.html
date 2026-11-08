@@ -11,6 +11,7 @@ a{color:#9ccbff}small{color:#8b96a3}
 </style>
 </head>
 <body>
+<div id="he">
 <h1>AutoPedia – תנאי שימוש</h1>
 <small>עדכון אחרון: נובמבר 2026</small>
 <h2>מטרת השירות</h2>
@@ -30,6 +31,7 @@ a{color:#9ccbff}small{color:#8b96a3}
 <h2>פרטיות</h2>
 <p>ראו את <a href="privacy.html">מדיניות הפרטיות</a>.</p>
 
+</div>
 <section dir="ltr" lang="en">
 <h1>AutoPedia – Terms of use</h1>
 <small>Last updated: November 2026</small>
@@ -50,5 +52,35 @@ a{color:#9ccbff}small{color:#8b96a3}
 <h2>Privacy</h2>
 <p>See the <a href="privacy.html">privacy policy</a>.</p>
 </section>
+
+<section dir="rtl" lang="ar">
+<h1>AutoPedia – شروط الاستخدام</h1>
+<small>آخر تحديث: تشرين الثاني 2026</small>
+<h2>هدف الخدمة</h2>
+<p>يجمع AutoPedia معلومات عامة عن السيارات لأغراض التعلّم والتوضيح والمقارنة: بيانات وزارة المواصلات المفتوحة، المواصفات، شروح القطع والأعطال الشائعة، ومجسمات ثلاثية الأبعاد.</p>
+<h2>ليست نصيحة مهنية</h2>
+<p>المعلومات والشروح و"ما العطل؟" ومواعيد الصيانة وتقدير القيمة والفحص قبل الشراء عامة فقط. هي ليست دليل صيانة ولا تشخيصًا ولا تخمينًا، ولا تغني عن فحص ميكانيكي مؤهل أو كراج مرخّص أو مُخمّن. عند الاشتباه بعطل، خاصة في المكابح أو التوجيه أو الإطارات أو الوسائد الهوائية، توجّهوا لفحص مهني ولا تواصلوا القيادة إذا كان هناك خطر.</p>
+<h2>المجسمات</h2>
+<p>المجسمات ثلاثية الأبعاد تمثيل عام حسب نوع الهيكل والأبعاد، وليست رسمًا دقيقًا لسيارة معيّنة.</p>
+<h2>مصادر المعلومات ودقتها</h2>
+<p>بيانات السيارة حسب رقم الترخيص مصدرها قواعد البيانات المفتوحة لوزارة المواصلات (data.gov.il)، وبيانات أخرى مصدرها الشركات المصنّعة ومصادر عامة. قد تكون المعلومات ناقصة أو خاطئة أو غير محدّثة. AutoPedia ليس تطبيقًا رسميًا لوزارة المواصلات.</p>
+<h2>العلامات التجارية</h2>
+<p>أسماء الشركات المصنّعة والطرازات علامات تجارية لأصحابها وتُستخدم للتعريف والمقارنة فقط. AutoPedia وRabieMan Labs غير مرتبطتين بأي شركة مصنّعة أو وكيل، ولا ترعاهما أو تعتمدهما أي منها.</p>
+<h2>حدود المسؤولية</h2>
+<p>استخدام التطبيق على مسؤوليتكم. إلى الحد الأقصى الذي يسمح به القانون، لا تتحمل AutoPedia وRabieMan Labs المسؤولية عن أي ضرر مباشر أو غير مباشر، ميكانيكي أو مالي أو متعلق بالسلامة، ناتج عن الاعتماد على المعلومات.</p>
+<h2>التواصل</h2>
+<p>RabieMan Labs · <span dir="ltr"><a href="mailto:rabieman.labs@gmail.com">rabieman.labs@gmail.com</a></span></p>
+<h2>الخصوصية</h2>
+<p>راجعوا <a href="privacy.html">سياسة الخصوصية</a>.</p>
+</section>
+<script>
+/* In the app the page opens with ?lang=he|en|ar: show only that language. On the website all languages are shown. */
+(function(){var l=new URLSearchParams(location.search).get('lang');if(!l)return;
+ var secs=document.querySelectorAll('section[lang]'),he=document.getElementById('he');
+ if(l==='he'){secs.forEach(function(s){s.style.display='none'});return}
+ if(he)he.style.display='none';document.documentElement.dir=l==='ar'?'rtl':'ltr';document.documentElement.lang=l;
+ var want=l==='ar'?'ar':'en';secs.forEach(function(s){s.style.display=s.getAttribute('lang')===want?'':'none';s.style.borderTop='0';s.style.marginTop='0'});
+ document.querySelectorAll('a[href="privacy.html"],a[href="terms.html"]').forEach(function(a){a.href+= '?lang='+l})})();
+</script>
 </body>
 </html>
