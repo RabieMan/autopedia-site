@@ -1,6 +1,6 @@
 # RechevLab (רכב לאב) – site
 
-Public website of the RechevLab Android app by [RabieMan Labs](https://rabieman.github.io/), served by GitHub Pages. The app code lives in the private repo `RabieMan/autopedia-app` (to be renamed).
+Public website of the RechevLab Android app by [RabieMan Labs](https://rabieman.github.io/), served by GitHub Pages.
 
 ## Pages
 
