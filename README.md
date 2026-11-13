@@ -27,7 +27,3 @@ The app is in Google Play closed testing. Testers join at https://play.google.co
 ## Images
 
 `img/` holds the screenshots (`01`–`09`, he/en), the app icon, the RabieMan Labs logo and the share image. Screenshots use demo data.
-
-## Name
-
-The app was renamed from AutoPedia to RechevLab (רכב לאב) in November 2026, before its public launch. The package name `com.rabieman.autopedia` is permanent in Google Play and stays.
