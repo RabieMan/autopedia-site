@@ -15,6 +15,7 @@ The privacy policy and terms can be opened in a single language with `?lang=he`,
 
 ## Content
 
+- Promo video (YouTube `1lW4trNxEYA`) once, under the Hebrew hero: click-to-load `youtube-nocookie` embed with a local poster `img/promo-poster.jpg`, so the page does not contact YouTube until the visitor clicks.
 - Features, a 6-screenshot grid in Hebrew (3 in English), and a mention of loading your own GLB model in the 3D workshop.
 - Contact: rabieman.labs+rechevlab@gmail.com
 - RabieMan Labs logo in the footer, privacy and terms.
